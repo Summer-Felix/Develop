@@ -4,6 +4,7 @@
 
 all(iterable)
 如果iterable的所有元素为真（或者iterable为空）， 返回True。等同于：
+
 ``
 def all(iterable):
     for element in iterable:
