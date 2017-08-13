@@ -5,12 +5,12 @@
 any(iterable)
 如果iterable里任何一个元素为True，返回 True。如果iterable为空（empty）,返回 False。等同于：
 
-'''
+```
 def any(iterable):
     for element in iterable:
         if element:
             return True
     return False
-'''
+```
 
 > 添加于版本2.5。
