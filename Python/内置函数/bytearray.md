@@ -3,7 +3,9 @@
 ## [bytearray()](http://python.usyiyi.cn/translate/python_352/library/functions.html) ##
 
 class bytearray([source[, encoding[, errors]]])
-返回一个新的字节数组。bytearray 类是一个关于整数的 mutable（可变）序列，范围为0 < = x < 256。它包含了可变序列大部分的常用方法，参见 [Mutable Sequence Types](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#typesseq-mutable)，同时也包含了bytes 类型的大部分方法，参见[Bytes 和 Bytearray 操作](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#bytes-methods)
+返回一个新的字节数组。
+
+bytearray 类是一个关于整数的 mutable（可变）序列，范围为0 < = x < 256。它包含了可变序列大部分的常用方法，参见 [Mutable Sequence Types](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#typesseq-mutable)，同时也包含了bytes 类型的大部分方法，参见[Bytes 和 Bytearray 操作](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#bytes-methods)
 
 source参数可以以不同的方式来初始化数组，它是可选的：
 * 如果是个字符串 string，应该直接在参数中指定编码类型，例如：utf-8 （以及可选参数 errors）；之后 bytearray() 将使用 [str.encode()](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#str.encode)按照编码转化字符串为字节序列。
