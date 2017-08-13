@@ -11,6 +11,7 @@ source参数可以以不同的方式来初始化数组，它是可选的：
 * 如果它是可迭代类型iterable，其整数元素的取值范围是0 <= x < 256，一般用作数组的初始内容。
 
 如果没有参数，它创建一个大小为0的数组。
+
 参见 [Binary Sequence Types — bytes, bytearray, memoryview](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#binaryseq) 和 [Bytearray Objects](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#typebytearray).
 
 > 添加于版本2.6。
