@@ -10,7 +10,7 @@ def all(iterable):
   for element in iterable:
     if not element:
       return False
-    return True
+  return True
 ```
 
 > 添加于版本2.5。
