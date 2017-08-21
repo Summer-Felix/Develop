@@ -3,6 +3,7 @@
 ## [bytearray()](http://python.usyiyi.cn/translate/python_352/library/functions.html) ##
 
 class bytearray([source[, encoding[, errors]]])
+
 返回一个新的字节数组。
 
 bytearray 类是一个关于整数的 mutable（可变）序列，范围为0 < = x < 256。它包含了可变序列大部分的常用方法，参见 [Mutable Sequence Types](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#typesseq-mutable)，同时也包含了bytes 类型的大部分方法，参见[Bytes 和 Bytearray 操作](http://python.usyiyi.cn/translate/python_352/library/stdtypes.html#bytes-methods)
