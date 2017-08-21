@@ -25,6 +25,7 @@ dir([object])
 * 否则，列表包含对象的属性名，它的类的属性名和类的基类的属性名。
 * 返回的列表按字母顺序排序。例如：
 
+```
 >>>
 >>> import struct
 >>> dir()   # show the names in the module namespace
@@ -40,6 +41,8 @@ dir([object])
 >>> s = Shape()
 >>> dir(s)
 ['area', 'location', 'perimeter']
+```
 
 > 注意因为dir()主要是方便在交互式环境中使用，它尝试提供一组有用的名称，而不是试图提供完整或一致性的名称集合，具体的行为在不同的版本之间会有变化。
+
 > 例如，如果参数是一个类，那么元类属性就不会出现在结果中。
